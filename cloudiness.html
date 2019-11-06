@@ -85,25 +85,16 @@
 
       <div class="row p-3">
         <div class="col-lg-8">
-            <div class="card">
-                <h2 class="brand-text-title"> Summary: Lattutude vs X</h2> 
-                <hr/>
-                <div class="row no-gutters">
-                  <div class="col-md-12">
-                    <div class="card-body">
-                        <img src="assets/images/Fig1.png" alt="Temp thumbnail" class="img-fluid img-size" style="float: left;">
-                        <p class="card-text para-text">
- 
-                        The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</P> 
-                        <p class = "para-text">After assembling the dataset, we used Matplotlib to plot various -20100 08111000 aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed. 
-                        </p>  
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title brand-text-title">Cloudiness</h5>
+              <hr />
+              <p class="card-text">
+                  <img src="assets/images/Fig3.png" class="mx-auto d-block" alt="Cloudiness plot">
+                  There is no strong relationship between latitude and cloudiness. However, it is interesting to see that a strong line of cities sits at 0, 75, and 90% cloudiness.
+              </p>
+            </div>
+          </div>
         </div>
         <div class="col-lg-4">
           <div class="card">
@@ -112,21 +103,26 @@
               <hr />
               <p class="card-text">
                 <div class="row">
-                  <div class="col-sm-6 col-md-3 col-lg-6">
-                    <a href="wind-speed.html">
-                        <img src="assets/images/Fig1.png" alt="Temp thumbnail" class="img-fluid">
-                    </a>
-                  </div>
-                  <div class="col-sm-6 col-md-3 col-lg-6">
-                      <img src="assets/images/Fig2.png" alt="humidity thumbnail" class="img-fluid">
-                   </div>
-                   <div class="col-sm-6 col-md-3 col-lg-6">
-                      <img src="assets/images/Fig3.png" alt="cloudiness thumbnail" class="img-fluid">
-
-                  </div>
-                  <div class="col-sm-6 col-md-3 col-lg-6">
-                      <img src="assets/images/Fig4.png" alt="wind-speed thumbnail" class="img-fluid">
-                   </div>
+                       <div class="col-sm-6 col-md-3 col-lg-6">
+                          <a href="temparature.html">
+                               <img src="assets/images/Fig1.png" alt="Temp thumbnail" class="img-fluid">  
+                          </a>
+                      </div>
+                      <div class="col-sm-6 col-md-3 col-lg-6">
+                           <a href="humidity.html">
+                                <img src="assets/images/Fig2.png" alt="humidity thumbnail" class="img-fluid">
+                           </a>    
+                      </div>
+                      <div class="col-sm-6 col-md-3 col-lg-6">
+                            <a href="cloudiness.html">
+                               <img src="assets/images/Fig3.png" alt="cloudiness thumbnail" class="img-fluid">
+                            </a>  
+                      </div>
+                      <div class="col-sm-6 col-md-3 col-lg-6">
+                            <a href="wind-speed.html">
+                               <img src="assets/images/Fig4.png" alt="wind-speed thumbnail" class="img-fluid">
+                           </a>  
+                      </div>
                 </div>
               </p>
             </div>
